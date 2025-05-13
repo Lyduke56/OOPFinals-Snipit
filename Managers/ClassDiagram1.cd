@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SnipIt.Properties.Resources" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAAAAAAAAAAAABEFCAFQAAABAgAIAAAAEAEYA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Properties.Settings" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Managers.DatabaseManager" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAEAAAIAAAAAAACAABBAAAAA=</HashCode>
+      <FileName>Managers\DatabaseManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Managers.PasswordManager" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\PasswordManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Managers.SnippetManager" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAAAAAAAgAAAAAAACQAAAAAAAAEAAEAAAAEAAAAA=</HashCode>
+      <FileName>Managers\SnippetManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Managers.User" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAAAAAQAAAAgAAAAAAAAAAgAAAAAIAAA=</HashCode>
+      <FileName>Managers\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Managers.UserManager" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAEgCAEAAACAEgAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\UserManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Managers.Utilities" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAhAAAAAABQAAAAAAAA=</HashCode>
+      <FileName>Managers\Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Managers.DraggableFormHelper" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAACAAAAAAAAAIAAAAAAggAAgQAAA=</HashCode>
+      <FileName>Managers\Utilities.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Managers.About" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAAAACBAAACAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>User Controls\About.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Models.ExecutionHistory" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABAKAAgAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Models\ExecHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Models.Snippet" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAACgAAEAAAACAAAAwCAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Models\Snippet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.User_Controls.Settings" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQAACAAABAAAASAAAADAACBAACQAAAAAAQBAAA=</HashCode>
+      <FileName>Models\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.User_Controls.SnippetControl" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAoFAAAiAQAgCAgBCCAAQCBAAAAIEIAYACAACBAQQ=</HashCode>
+      <FileName>User Controls\SnippetControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.User_Controls.Snips" Collapsed="true">
+    <Position X="8.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>o0JABJBCBiIQORQAAiDSQgMGBBAMAACiQQCAAHALgGo=</HashCode>
+      <FileName>Snips.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.CodePlayground" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAEBAAAACAAAAigACAAQAAgAAAAA4IgAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.CreateAcc" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAAAASAAEBAAIACCAAACAAAAAAAKAAAAAQBIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Dashboard" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAEAACQAAQCAAAAQAAIAAAABaiIABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.ForgotPass" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACEgIgQBBGAEEFSQIECWAIQCAgAAAAAIBYQAgYJKACg=</HashCode>
+      <FileName>ForgotPass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Loading" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAABAAAAICAAAQDBgCAEACAAAAAgQBEAAA=</HashCode>
+      <FileName>Loading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.timer" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAYEARAAACAACBAAAACSACQCAAAAggQAAAAAAQAIAEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Menu" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Menu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.UserProfileControl" Collapsed="true">
+    <Position X="6.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAJBKyCECgABZQAIECCAQACoCAIEMCAAFAIACEAQAE=</HashCode>
+      <FileName>Profile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Program" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Report" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAAIBCAAAACAAgAEAAAAAAAAEADIAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SnipIt.Stats" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAIAQKCxABECAAACACIGCGCKAAAAAAEAAAADRQgA=</HashCode>
+      <FileName>Stats.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

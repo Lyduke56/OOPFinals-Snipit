@@ -1,0 +1,184 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <ForceDesignerDPIUnaware>true</ForceDesignerDPIUnaware>
+	  <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="SnipIt Assets\-SNIP-IT-3-19-2025 %281%29.gif" />
+    <None Remove="SnipIt Assets\-SNIP-IT-3-19-2025.gif" />
+    <None Remove="SnipIt Assets\1947ed7e77d12083017585a18e6a0b7eccb0775d.gif" />
+    <None Remove="SnipIt Assets\5848152fcef1014c0b5e4967.png" />
+    <None Remove="SnipIt Assets\8-bit Arcade In.ttf" />
+    <None Remove="SnipIt Assets\8-bit Arcade Out.ttf" />
+    <None Remove="SnipIt Assets\8-bit Arcade.png" />
+    <None Remove="SnipIt Assets\8-bit Arcade.txt" />
+    <None Remove="SnipIt Assets\add.png" />
+    <None Remove="SnipIt Assets\alena-sherban-girl.gif" />
+    <None Remove="SnipIt Assets\be1 #272757.png" />
+    <None Remove="SnipIt Assets\be2 #8686AC.png" />
+    <None Remove="SnipIt Assets\be3 #505081.png" />
+    <None Remove="SnipIt Assets\be4 #0F0E47.png" />
+    <None Remove="SnipIt Assets\color palette.PNG" />
+    <None Remove="SnipIt Assets\cpp_icon.png" />
+    <None Remove="SnipIt Assets\CREATE-ACCOUNT-3-18-2025.gif" />
+    <None Remove="SnipIt Assets\c_icon.png" />
+    <None Remove="SnipIt Assets\C_Logo.png" />
+    <None Remove="SnipIt Assets\download.jpg" />
+    <None Remove="SnipIt Assets\FORGOT-PASSWORD-3-18-2025 %281%29.gif" />
+    <None Remove="SnipIt Assets\GoBack.png" />
+    <None Remove="SnipIt Assets\italic_icon-icons.com_70938.ico" />
+    <None Remove="SnipIt Assets\ji7og7e5mmfa1.png" />
+    <None Remove="SnipIt Assets\list_bullets_icon_175102.ico" />
+    <None Remove="SnipIt Assets\magnifier.png" />
+    <None Remove="SnipIt Assets\Minimize.png" />
+    <None Remove="SnipIt Assets\pie-and-donut-charts-3d-pie-chart.png" />
+    <None Remove="SnipIt Assets\Pushkin_population_history.svg" />
+    <None Remove="SnipIt Assets\python_icon.png" />
+    <None Remove="SnipIt Assets\save-icon-2048x2048-iovw4qr4.png" />
+    <None Remove="SnipIt Assets\SIGN-IN-3-18-2025.gif" />
+    <None Remove="SnipIt Assets\SIGN-IN-3-19-2025.png" />
+    <None Remove="SnipIt Assets\SnipIt_Login_img1.png" />
+    <None Remove="SnipIt Assets\underline_icon-icons.com_64727.ico" />
+    <None Remove="SnipIt Assets\Untitled32_20250315182609.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250315182614.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250316193931.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250316193940.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250316193958.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250316194107.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250317221340.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250317221352.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250317221422 %281%29.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320000205.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320000416 %281%29.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320000416.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320001610.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320001843 %281%29.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320001914.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320001941.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320002002.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320003037.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250320004355.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250402173628.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250402173659.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250402173738.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250402211637.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250402211650.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250402221314.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250402221434.png" />
+    <None Remove="SnipIt Assets\Untitled32_20250402221508.png" />
+    <None Remove="SnipIt Assets\__steam_delivery_girl_atlas_and_p_body_portal_and_4_more_drawn_by_nemupan__38b04a65586c42fc1a0b06a3fcdb9efb.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="SnipIt Assets\-SNIP-IT-3-19-2025 (1).gif" />
+    <EmbeddedResource Include="SnipIt Assets\-SNIP-IT-3-19-2025.gif" />
+    <EmbeddedResource Include="SnipIt Assets\1947ed7e77d12083017585a18e6a0b7eccb0775d.gif" />
+    <EmbeddedResource Include="SnipIt Assets\5848152fcef1014c0b5e4967.png" />
+    <EmbeddedResource Include="SnipIt Assets\8-bit Arcade In.ttf" />
+    <EmbeddedResource Include="SnipIt Assets\8-bit Arcade Out.ttf" />
+    <EmbeddedResource Include="SnipIt Assets\8-bit Arcade.png" />
+    <EmbeddedResource Include="SnipIt Assets\8-bit Arcade.txt" />
+    <EmbeddedResource Include="SnipIt Assets\add.png" />
+    <EmbeddedResource Include="SnipIt Assets\alena-sherban-girl.gif" />
+    <EmbeddedResource Include="SnipIt Assets\be1 #272757.png" />
+    <EmbeddedResource Include="SnipIt Assets\be2 #8686AC.png" />
+    <EmbeddedResource Include="SnipIt Assets\be3 #505081.png" />
+    <EmbeddedResource Include="SnipIt Assets\be4 #0F0E47.png" />
+    <EmbeddedResource Include="SnipIt Assets\color palette.PNG" />
+    <EmbeddedResource Include="SnipIt Assets\cpp_icon.png" />
+    <EmbeddedResource Include="SnipIt Assets\CREATE-ACCOUNT-3-18-2025.gif" />
+    <EmbeddedResource Include="SnipIt Assets\c_icon.png" />
+    <EmbeddedResource Include="SnipIt Assets\C_Logo.png" />
+    <EmbeddedResource Include="SnipIt Assets\download.jpg" />
+    <EmbeddedResource Include="SnipIt Assets\FORGOT-PASSWORD-3-18-2025 (1).gif" />
+    <EmbeddedResource Include="SnipIt Assets\GoBack.png" />
+    <EmbeddedResource Include="SnipIt Assets\italic_icon-icons.com_70938.ico" />
+    <EmbeddedResource Include="SnipIt Assets\ji7og7e5mmfa1.png" />
+    <EmbeddedResource Include="SnipIt Assets\list_bullets_icon_175102.ico" />
+    <EmbeddedResource Include="SnipIt Assets\magnifier.png" />
+    <EmbeddedResource Include="SnipIt Assets\Minimize.png" />
+    <EmbeddedResource Include="SnipIt Assets\pie-and-donut-charts-3d-pie-chart.png" />
+    <EmbeddedResource Include="SnipIt Assets\Pushkin_population_history.svg" />
+    <EmbeddedResource Include="SnipIt Assets\python_icon.png" />
+    <EmbeddedResource Include="SnipIt Assets\save-icon-2048x2048-iovw4qr4.png" />
+    <EmbeddedResource Include="SnipIt Assets\SIGN-IN-3-18-2025.gif" />
+    <EmbeddedResource Include="SnipIt Assets\SIGN-IN-3-19-2025.png" />
+    <EmbeddedResource Include="SnipIt Assets\SnipIt_Login_img1.png" />
+    <EmbeddedResource Include="SnipIt Assets\underline_icon-icons.com_64727.ico" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250315182609.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250315182614.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250316193931.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250316193940.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250316193958.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250316194107.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250317221340.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250317221352.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250317221422 (1).png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320000205.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320000416 (1).png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320000416.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320001610.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320001843 (1).png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320001914.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320001941.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320002002.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320003037.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250320004355.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250402173628.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250402173659.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250402173738.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250402211637.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250402211650.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250402221314.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250402221434.png" />
+    <EmbeddedResource Include="SnipIt Assets\Untitled32_20250402221508.png" />
+    <EmbeddedResource Include="SnipIt Assets\__steam_delivery_girl_atlas_and_p_body_portal_and_4_more_drawn_by_nemupan__38b04a65586c42fc1a0b06a3fcdb9efb.gif" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fernandreu.ScintillaNET" Version="4.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="OxyPlot.WindowsForms" Version="2.2.0" />
+    <PackageReference Include="ReaLTaiizor" Version="3.8.1.1" />
+    <PackageReference Include="System.Data.OleDb" Version="9.0.3" />
+    <PackageReference Include="System.Text.Json" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Libraries\Scintilla.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
